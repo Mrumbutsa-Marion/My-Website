@@ -10,33 +10,45 @@ body{
 header{
     /*background-color: #12002f;*/
 }
-#navigation{
+header .navigation{
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
-    padding-left: 128px;
-    padding-right: 128px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: sticky;
+    
+    
 }
-header img{
-
+header .navigation img{
+    padding-left: 30px;
 }
-header #navigation nav{
+header .navigation nav{
     display: grid;
-    grid-gap:16px;
+    position: fixed;
+    grid-gap:40px;
     grid-template-columns: repeat(4, auto);
+    margin: 0 auto;
+    padding-left: 958px;
+    padding-right: 958px;
+    width: 100%;
+   
 }
-#navigation nav a{
+.navigation nav a{
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
-
+header.is-scrolling{
+    background-color: #4b95d0;
+}
+header.is-scrolling .navigation nav{
+    background-color: #4b95d0;
+    padding-top: 16px;
+    padding-bottom: 26px;
+    
+}
 section.homepg{
     align-items: center;
     padding-left: 300px;
@@ -50,6 +62,7 @@ section .homepg-content h1 span{
     color: white;
     font-size: 100px;
     margin-bottom: 160px;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 section .homepg-content .square{
