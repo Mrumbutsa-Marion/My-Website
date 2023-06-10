@@ -55,8 +55,8 @@ section .homepg-content h1 span{
     text-decoration: none;
     background: linear-gradient(to right, #4b95d0, #4645aa);
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
-    top: 960px;
     font-size: 40px;
+    white-space: nowrap;
 }
