@@ -51,7 +51,7 @@ header.is-scrolling .navigation nav{
 }
 section.homepg{
     align-items: center;
-    padding-left: 300px;
+    padding-left: 200px;
     margin-top: 50px;
 }
 section .homepg-content h1{
@@ -145,11 +145,10 @@ margin-bottom: 43px;
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
-    background-color: #E2D2F9;
+    background-color: #020410;
 }
 .about .aboutMe{
     display: grid;
-    grid-gap:20px;
     grid-template-columns: repeat(2, auto);
     
     padding-top: 50px;
@@ -157,22 +156,46 @@ margin-bottom: 43px;
     padding-left: 200px;
 }
 .about h2{
-    padding-left: 500px;
-    padding-top: 150px;
-    font-size: 50px
+    padding-left: 600px;
+    padding-top: 100px;
+    font-size: 50px;
+    color: white;
+    bottom: 250px;
+    
+}
+.aboutMe .image{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.aboutMe .image img{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    border-radius: 4px;
+    width: 50%;
 }
  .aboutMe .image div.rectangle{
-   border-radius: 5px;
+    position: relative;
+   border-radius: 8px;
    border: 12px solid #4b95d0;
    padding: 20px;
    width: 300px;
-   height: 300px;
+   height: 350px;
+   top: 60px;
+   margin-left: 20px;
+}
+.aboutMe .me{
+    margin-left: -130px;
+    margin-top: 80px;
+   margin-right: 100px;
 }
 .aboutMe .me p{
-    font-size: 20px;
-    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+   margin-bottom: 60px;
     text-justify: auto;
-
+   
 }
 .me a {
     text-decoration: none;
@@ -181,6 +204,6 @@ margin-bottom: 43px;
     padding: 5px 19px;
     border-radius: 8px;
     font-size: 40px;
-    
+    cursor: pointer;
    
 }
