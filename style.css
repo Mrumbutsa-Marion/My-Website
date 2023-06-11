@@ -147,3 +147,9 @@ margin-bottom: 43px;
     box-sizing: border-box;
     background-color: #E2D2F9;
 }
+.about .aboutMe{
+    display: grid;
+    grid-gap:70px;
+    grid-template-columns: repeat(2, auto);
+    
+}
