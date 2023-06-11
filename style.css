@@ -282,17 +282,95 @@ a{
 .contactme{
     padding: 80px 0;
     box-sizing: border-box;
-    background-color: #E2D2F9;
+    background: linear-gradient(to right, #4645aa, #4b95d0) ;
+    height: 100vh;
 }
 .contactme .heading{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-bottom: 2%;
+    margin-top: 100px;
 }
 .heading h1{
-    color: #317874;
+    color: white;
     font-weight: 700;
     font-size: 50px;
     margin-top: -68px;
+}
+.contactmeinfo{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.message-me{
+    margin-left: 200px;
+}
+.socialmedia h2{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: white;
+    font-size: 40px;
+}
+.socialmedia h4{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+.icons{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.icons img{
+
+}
+.icons a{
+
+    font-size: 16px;
+}
+
+.contact_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactmeinfo .contact_form{
+    background-color: linear-gradient(to right, #4b95d0, #4645aa);
+    height: 15px;
+    width: 15px;
+    background-color: #4b95d0;
+    width: 500px;
+   height: 450px;
+   top: 60px;
+   margin-right: 100px;
+   border-radius: 12px;
+   padding: 30px;
+}
+
+.firstrow .insertinfo input{
+    border-radius: 8px;
+    width: 450px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+    background-color: #020410;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstrow .insertinfo textarea{
+    width: 450px;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: #020410;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.submit button{
+    border-radius: 8px;
+    background-color: #020410;
+    width: 80px;
+    height: 10vh;
 }
