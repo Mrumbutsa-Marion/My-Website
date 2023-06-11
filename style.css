@@ -27,11 +27,11 @@ header .navigation img{
 header .navigation nav{
     display: grid;
     position: fixed;
-    grid-gap:15px;
+    grid-gap:5px;
     grid-template-columns: repeat(4, auto);
     margin: 0 auto;
-    padding-left: 958px;
-    padding-right: 958px;
+    padding-left: 758px;
+    padding-right: 758px;
     width: 100%;
    
 }
@@ -241,15 +241,26 @@ margin-bottom: 43px;
     border: 8px solid #4b95d0 ;
     padding: 20px;
     
+    
 }
 .myprojects h3{
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    
+    font-size: 23px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .myprojects p{
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    
 }
+
 @media only screen and(max-width:100px){
     .myproject-part{
         display: flex;
@@ -258,8 +269,9 @@ margin-bottom: 43px;
 }
 .myproject-images{
     margin-top: 25px;
-    width: 250px;
-    border-radius: 240px;
+    width: 200px;
+    border-radius: 390px;
+    margin-left: 20px;
 }
 hr{
     margin-left: 20px;
@@ -273,8 +285,11 @@ a{
     text-decoration: none;
     color: white;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    
 }
 
 
