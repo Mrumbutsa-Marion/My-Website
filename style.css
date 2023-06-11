@@ -258,7 +258,7 @@ margin-bottom: 43px;
 }
 .myproject-images{
     margin-top: 25px;
-    width: 150px;
+    width: 250px;
     border-radius: 240px;
 }
 hr{
@@ -376,4 +376,12 @@ a{
 }
 .submit button a:hover{
     color: #4b95d0;
+}
+footer{
+    background: linear-gradient(to right, #4645aa, #4b95d0) ;
+}
+footer .logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
