@@ -27,7 +27,7 @@ header .navigation img{
 header .navigation nav{
     display: grid;
     position: fixed;
-    grid-gap:40px;
+    grid-gap:15px;
     grid-template-columns: repeat(4, auto);
     margin: 0 auto;
     padding-left: 958px;
@@ -206,4 +206,93 @@ margin-bottom: 43px;
     font-size: 40px;
     cursor: pointer;
    
+}
+
+
+.project-part{
+
+    padding: 80px;
+    
+    
+}
+.project-part .projectss h2{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+
+}
+.myproject-part{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+   
+}
+.myprojects{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border: 8px;
+    border-radius: 8px;
+    border: 8px solid #4b95d0 ;
+    padding: 20px;
+    
+}
+.myprojects h3{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.myprojects p{
+    color: white;
+}
+@media only screen and(max-width:100px){
+    .myproject-part{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.myproject-images{
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 240px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.theprojects{
+    text-decoration: none;
+    color: #4b95d0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.contactme{
+    padding: 80px 0;
+    box-sizing: border-box;
+    background-color: #E2D2F9;
+}
+.contactme .heading{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.heading h1{
+    color: #317874;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -68px;
 }
